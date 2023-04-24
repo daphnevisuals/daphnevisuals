@@ -1,0 +1,113 @@
+.menu-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.menu-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu-cta p {
+  text-decoration: none;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+  font-size: 10px;
+  color: #1c3c61;
+}
+
+.menu-button img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu-button img:hover {
+  transform: rotate(90deg); /* Rotate if mouse is hovered */
+}
+
+.menu-text button {
+  font-family: "Kenoky-Demibold";
+  background: none;
+  border: none;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+.menu-text:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.menu-text {
+  position: relative;
+  bottom: -52px;
+  z-index: 9999;
+}
+
+// DISPLAY NAVMENU
+
+.nav-menu-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  opacity: 0;
+}
+
+.nav-menu nav li {
+  list-style-type: none;
+}
+
+.nav-menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  flex-direction: row;
+  @media (min-width: 0px) {
+    flex-direction: column;
+    gap: 30px;
+  }
+  @media (min-width: 420px) {
+    flex-direction: column;
+  }
+  @media (min-width: 640px) {
+    flex-direction: row;
+    gap: 60px;
+  }
+}
+
+.nav-menu a {
+  text-decoration: none;
+  font-family: "Kenoky-Light";
+  font-weight: 300;
+  font-size: 30px;
+  transform: all 0.2s ease-in-out;
+  @media (min-width: 0px) {
+    font-size: 30px;
+  }
+  @media (min-width: 640px) {
+    font-size: 25px;
+  }
+  @media (min-width: 768px) {
+    font-size: 30px;
+  }
+}
+
+.nav-menu a:hover {
+  color: #045f92;
+  transition-duration: 0.2s;
+}

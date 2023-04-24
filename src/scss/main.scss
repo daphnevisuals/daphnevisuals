@@ -1,0 +1,36 @@
+@import "base";
+@import "layout";
+@import "modules/about";
+@import "modules/nav-home";
+@import "modules/home";
+@import "modules/main-nav";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;500&family=Libre+Franklin:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+
+@font-face {
+  font-family: "Kenoky-Demibold";
+  src: url("../font/KENOKY-DemiBold.ttf") format("ttf"),
+    url("../font/KENOKY-DemiBold.woff2") format("woff2");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Kenoky-Normal";
+  src: url("../font/KENOKY-Normal.ttf") format("ttf"),
+    url("../font/KENOKY-Normal.woff2") format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Kenoky-Regular";
+  src: url("../font/KENOKY-Regular.ttf") format("ttf"),
+    url("../font/KENOKY-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Kenoky-Light";
+  src: url("../font/KENOKY-Light.ttf") format("ttf"),
+    url("../font/KENOKY-Light.woff2") format("woff2");
+  font-weight: 300;
+}

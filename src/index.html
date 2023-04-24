@@ -1,0 +1,39 @@
+<!-- toujours mettre extends base-layout, body main et le bloc en question, pas besoin de rappeler le header -->
+<extends src="base-layout.html"></extends>
+<body class="bg-img">
+  <div id="swup" class="background-image transition-fade"></div>
+  <div class="content">
+    <main>
+      <!-- contenu du block -->
+      <block name="content-homepage">
+        <div class="site-name">
+          <h2>aphné isuals</h2>
+          <h3>Portfolio</h3>
+        </div>
+        <div class="menu-container">
+          <div class="menu-button">
+            <div class="menu-text">
+              <button onclick="openNavMenu()" id="menu">Menu</button>
+            </div>
+            <img src="/src/img/flower-menu.svg" />
+            <div class="menu-cta">
+              <p id="#clickme">click me !</p>
+            </div>
+          </div>
+        </div>
+        <div id="nav-menu" class="nav-menu-container">
+          <div class="nav-menu">
+            <nav>
+              <ul>
+                <li><a href="./photography-page.html">Photographie</a></li>
+                <li><a href="./webdesign-page.html">Webdesign</a></li>
+                <li><a href="./about.html">About & Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </block>
+    </main>
+  </div>
+</body>
+<script src="js/main.js" type="module"></script>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Base layout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/main.scss" />
+  </head>
+  <body>
+    <!-- spécifier le contenu du header ici car il se répète -->
+    <header>
+      <block name="header"></block>
+    </header>
+    <!-- spécifier tous nos blocks différents qui correspondent aux pages -->
+    <block name="content-home"></block>
+    <block name="content-about"></block>
+    <block name="content-photography"></block>
+    <block name="content-webdesign"></block>
+    <!-- spécifier le contenu du footer ici car il se répète -->
+    <footer>
+      <block name="footer">© Daphné Visuals</block>
+    </footer>
+    <script src="js/main.js" type="module"></script>
+    <script src="https://unpkg.com/swup@3"></script>
+  </body>
+</html>
