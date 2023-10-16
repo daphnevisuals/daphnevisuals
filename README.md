@@ -3,7 +3,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=daphnevisuals" alt="daphnevisuals" /></a> </p>
 
-- 🔭 I’m currently working on the responsive part of **my portfolio**
+- 🔭 I’m currently working on the responsive part of **my portfolio** : www.daphnevisuals.com
 
 - 🌱 I’m currently learning **React JS**
 
