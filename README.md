@@ -3,13 +3,13 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=daphnevisuals" alt="daphnevisuals" /></a> </p>
 
-- 🔭 I’m currently working on **my portfolio**
+- 🔭 I’m currently working on the responsive part of **my portfolio**
 
 - 🌱 I’m currently learning **React JS**
 
-- 💬 Ask me about **HTML, CSS, Js**
+- 💬 Ask me about **HTML, CSS, Js, Ruby, Rails, Ruby on Rails and more**
 
-- 📫 How to reach me **daphnevisuals.ch@gmail.com**
+- 📫 How to reach me **daphnevisuals.com@gmail.com**
 
 - ⚡ Fun fact **Can't live without cheese and chocolate (and wine) !**
 
